@@ -95,7 +95,46 @@ h3 {
   padding:1px 1px 1px 1px;
   font-weight: normal;
   color: white;}
-  
+
+  .Technology:hover{
+    font-family: 'Inter',solid;
+    font-size: 22px;
+    color:rgb(235,233,249);
+  }
+  .list1 li:first-child{
+    color:yellow;
+  }
+  .list1 li:last-child{
+    color:blue;
+  }
+  .list1 li:nth-child(even){
+    color:green;
+  }
+
+  .list1 li:before{
+    content:'';
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .list1 li:hover:before{
+    content:'';
+    border-radius:50%;
+    background-color: yellow;
+  }
+  .list1 li:after{
+    content:'';
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
   h4,h5,p {
   margin:1px 2px 3px 4px;
   color:white;
